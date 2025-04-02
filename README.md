@@ -3,6 +3,8 @@
 ## 📌 Descrição do Projeto  
 Este projeto consiste no desenvolvimento de um **dispensador automático de álcool em gel**, utilizando um **Arduino Uno R3** e sensores para detectar a aproximação das mãos. O objetivo é garantir uma higienização eficiente, **eliminando a necessidade de toque físico**, reduzindo o risco de contaminação cruzada.  
 
+O projeto foi desenvolvido e simulado na **plataforma Tinkercad**, permitindo visualizar e testar seu funcionamento antes da implementação física.  
+
 ## 🛠️ Componentes Utilizados  
 
 | **Componente**              | **Função no Sistema**                                         |
@@ -25,11 +27,12 @@ Este projeto consiste no desenvolvimento de um **dispensador automático de álc
 
 - **Linguagem C/C++** para programação embarcada no Arduino.  
 - **Arduino IDE** para desenvolvimento e teste do código.  
-- **Modelagem no TinkerCad** para simulação do circuito.  
+- **Tinkercad** para simulação do circuito antes da implementação física.  
 
-## 📷 Esquemático do Circuito  
+## 📷 Simulação no Tinkercad  
 
-*(Adicione aqui uma imagem ou link para o esquemático do circuito.)*  
+A simulação deste projeto pode ser acessada no link abaixo:  
+🔗 **[Clique aqui para visualizar no Tinkercad](https://www.tinkercad.com/things/7hayrokL4uY-sensor-de-alcool-em-gel/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=dkSYwI1NuwSXJLI3l1YxlDuXzQRWFft4e2gR13QN81s)**  
 
 ## 🎥 Demonstração do Projeto  
 
