@@ -1,4 +1,4 @@
-# **[Dispensador Automático de Álcool em Gel]**  
+# **Dispensador Automático de Álcool em Gel**  
 
 ## **Descrição do Projeto**  
 O presente projeto consiste no desenvolvimento de um sistema automatizado para a dispensação de álcool em gel, visando promover a higienização eficiente das mãos de forma segura e sem contato. O dispositivo utiliza sensores para detectar a aproximação do usuário e acionar automaticamente a liberação do álcool em gel, reduzindo a necessidade de toque e minimizando o risco de contaminação cruzada.  
@@ -41,7 +41,7 @@ O projeto pode ser aprimorado com a implementação de uma bateria recarregável
 ## **Instalação**  
 _x_  
 
-## **Youtube**  
+## **Video Google Drive**  
 A apresentação deste projeto foi gravada e publicada no YouTube. Para assistir, acesse o link: [aqui](https://drive.google.com/file/d/1Z5Y4WT4Inxv3UNY7E61F3dmGt30_tQ0w/view?usp=sharing).  
 
 ## **Contribuições**  
