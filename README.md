@@ -7,8 +7,11 @@ A aplicação desse sistema é voltada para ambientes públicos, hospitais, empr
 
 ## **Equipe do Projeto**  
 Gustavo Souto - [aqui](https://github.com/gustavosouto).
+
 João Lucas Camilo - [aqui](https://github.com/joaolucascamilo).
+
 Luiz Felipe - [aqui](https://github.com/LuizFelipee96).
+
 Nicolas Só - [aqui](https://github.com/Nilssasi).
 
 
