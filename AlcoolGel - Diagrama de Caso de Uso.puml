@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+actor "Usuário Final" as UF
+
+rectangle "Dispensador Automático de Álcool em Gel" {
+  usecase "Dispensação de Álcool" as UC1
+  usecase "Indicação Visual" as UC2
+  usecase "Segurança no Acionamento" as UC3
+}
+
+UF --> UC1
+UF --> UC2
+UF --> UC3
+
+@enduml

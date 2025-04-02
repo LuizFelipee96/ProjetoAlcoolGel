@@ -1,0 +1,34 @@
+@startuml
+' Classe principal representando o controle central do sistema
+class ArduinoUno {
+  - sensor: UltrasonicSensor
+  - actuator: ServoMotor
+  - indicator: LED
+  + processInput(): void
+  + controlMotor(): void
+  + signalStatus(): void
+}
+
+' Classe representando o sensor ultrassônico
+class UltrasonicSensor {
+  + measureDistance(): float
+}
+
+' Classe representando o servo motor
+class ServoMotor {
+  + activate(): void
+  + deactivate(): void
+}
+
+' Classe representando o LED indicador
+class LED {
+  + turnOn(): void
+  + turnOff(): void
+}
+
+' Relações entre as classes
+ArduinoUno --> UltrasonicSensor : "usa"
+ArduinoUno --> ServoMotor : "controla"
+ArduinoUno --> LED : "controla"
+
+@enduml
