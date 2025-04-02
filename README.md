@@ -6,8 +6,10 @@ O presente projeto consiste no desenvolvimento de um sistema automatizado para a
 A aplicação desse sistema é voltada para ambientes públicos, hospitais, empresas e demais locais que necessitam de medidas eficazes de higiene. Além disso, o projeto busca integrar tecnologias que aumentem a autonomia e a usabilidade do dispositivo.  
 
 ## **Equipe do Projeto**  
-Gustavo Souto - [aqui](https://github.com/gustavosouto)
-Luiz Felipe - [aqui](https://github.com/LuizFelipee96)
+Gustavo Souto - [aqui](https://github.com/gustavosouto).
+
+Luiz Felipe - [aqui](https://github.com/LuizFelipee96).
+
 João Lucas Camilo - [aqui](https://github.com/joaolucascamilo)
 
 ## **Componentes Utilizados**  
