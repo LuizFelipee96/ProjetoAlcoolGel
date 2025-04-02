@@ -1,58 +1,54 @@
-# **Dispensador Automático de Álcool em Gel**  
+# 🚀 Dispensador Automático de Álcool em Gel  
 
-## **Descrição do Projeto**  
-O presente projeto consiste no desenvolvimento de um sistema automatizado para a dispensação de álcool em gel, visando promover a higienização eficiente das mãos de forma segura e sem contato. O dispositivo utiliza sensores para detectar a aproximação do usuário e acionar automaticamente a liberação do álcool em gel, reduzindo a necessidade de toque e minimizando o risco de contaminação cruzada.  
+## 📌 Descrição do Projeto  
+Este projeto consiste no desenvolvimento de um **dispensador automático de álcool em gel**, utilizando um **Arduino Uno R3** e sensores para detectar a aproximação das mãos. O objetivo é garantir uma higienização eficiente, **eliminando a necessidade de toque físico**, reduzindo o risco de contaminação cruzada.  
 
-A aplicação desse sistema é voltada para ambientes públicos, hospitais, empresas e demais locais que necessitam de medidas eficazes de higiene. Além disso, o projeto busca integrar tecnologias que aumentem a autonomia e a usabilidade do dispositivo.  
+## 🛠️ Componentes Utilizados  
 
-## **Equipe do Projeto**  
-Gustavo Souto - [aqui](https://github.com/gustavosouto).
+| **Componente**              | **Função no Sistema**                                         |
+|----------------------------|-------------------------------------------------------------|
+| **Arduino Uno R3**         | Microcontrolador responsável pelo processamento do sistema. |
+| **Sensor Ultrassônico HC-SR04** | Detecta a proximidade das mãos do usuário.              |
+| **Servo Motor SG90**       | Aciona o mecanismo de liberação do álcool em gel.          |
+| **LED Indicador**          | Fornece feedback visual sobre o funcionamento do sistema.  |
+| **Resistores, Jumpers e Protoboard** | Auxiliam na interligação segura dos circuitos.  |
+| **Fonte de Alimentação**   | Fornece energia ao circuito.                               |
 
-João Lucas Camilo - [aqui](https://github.com/joaolucascamilo).
+## 🔧 Funcionamento  
 
-Luiz Felipe - [aqui](https://github.com/LuizFelipee96).
+1. O **Sensor Ultrassônico HC-SR04** detecta a aproximação da mão do usuário.  
+2. O **Arduino Uno R3** processa o sinal e ativa o **Servo Motor SG90**.  
+3. O servo motor movimenta o mecanismo de dispensação, liberando o álcool em gel.  
+4. O **LED Indicador** acende para confirmar a ativação do sistema.  
 
-Nicolas Só - [aqui](https://github.com/Nilssasi).
+## 💻 Tecnologias Utilizadas  
 
+- **Linguagem C/C++** para programação embarcada no Arduino.  
+- **Arduino IDE** para desenvolvimento e teste do código.  
+- **Modelagem no TinkerCad** para simulação do circuito.  
 
-## **Componentes Utilizados**  
+## 📷 Esquemático do Circuito  
 
-| **Componente**              | **Função no Sistema**                                                         |
-|----------------------------|-------------------------------------------------------------------------------|
-| Sensor Ultrassônico HC-SR04 | Detecta a presença do usuário e aciona o sistema de dispensação.             |
-| Arduino Uno R3             | Microcontrolador responsável pelo controle do sistema.                       |
-| Servo Motor SG90           | Aciona o mecanismo de liberação do álcool em gel.                            |
-| Display LCD 16x2           | Exibe informações sobre o status do sistema e nível do reservatório.         |
-| Sensor de Nível de Líquido | Monitora a quantidade de álcool disponível no reservatório.                  |
-| Módulo Bluetooth HC-05     | Permite a integração do sistema com dispositivos móveis para monitoramento.  |
-| Fonte de Alimentação 5V    | Alimentação do sistema.                                                      |
+*(Adicione aqui uma imagem ou link para o esquemático do circuito.)*  
 
-## **Funcionamento**  
+## 🎥 Demonstração do Projeto  
 
-O sistema de dispensação de álcool em gel opera de forma automática, garantindo a higienização eficiente das mãos sem a necessidade de contato físico. O funcionamento do dispositivo baseia-se nas seguintes etapas:  
+Assista ao vídeo de demonstração do projeto no link abaixo:  
+🔗 **[Clique aqui para assistir](https://drive.google.com/file/d/1Z5Y4WT4Inxv3UNY7E61F3dmGt30_tQ0w/view?usp=sharing)**  
 
-1. **Detecção da Presença do Usuário**  
-   - O sensor ultrassônico detecta a aproximação das mãos e envia um sinal ao microcontrolador.  
+## 👨‍💻 Equipe do Projeto  
 
-2. **Acionamento do Dispensador**  
-   - O **Arduino Uno R3** processa o sinal recebido e ativa o **servo motor SG90**, que movimenta a válvula do reservatório para liberar uma quantidade controlada de álcool em gel.  
+- **Gustavo Souto** - [GitHub](https://github.com/gustavosouto)  
+- **João Lucas Camilo** - [GitHub](https://github.com/joaolucascamilo)  
+- **Luiz Felipe** - [GitHub](https://github.com/LuizFelipee96)  
+- **Nicolas Só** - [GitHub](https://github.com/Nilssasi)  
 
-3. **Monitoramento do Nível de Álcool**  
-   - Um **sensor de nível de líquido** verifica a quantidade de álcool no reservatório, permitindo alertas quando o nível estiver baixo.  
+## 🔗 Links Úteis  
 
-4. **Exibição de Informações**  
-   - O status do sistema e o nível do reservatório são exibidos em um **display LCD 16x2**.  
+- [Datasheet do HC-SR04](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)  
+- [Datasheet do SG90](https://www.electronicoscaldas.com/datasheet/SG90.pdf)  
+- [Arduino Uno R3](https://store.arduino.cc/products/arduino-uno-rev3)  
 
-5. **Integração com Dispositivos Móveis (IoT)**  
-   - O módulo **Bluetooth HC-05** possibilita o envio de dados para um dispositivo móvel, permitindo o monitoramento remoto do nível de álcool e do status operacional do dispensador.  
+---
 
-O projeto pode ser aprimorado com a implementação de uma bateria recarregável para tornar o dispositivo portátil, além da incorporação de sensores mais precisos para melhorar a detecção da presença do usuário.  
-
-## **Instalação**  
-_x_  
-
-## **Video Google Drive**  
-A apresentação deste projeto foi gravada e publicada no YouTube. Para assistir, acesse o link: [aqui](https://drive.google.com/file/d/1Z5Y4WT4Inxv3UNY7E61F3dmGt30_tQ0w/view?usp=sharing).  
-
-## **Contribuições**  
-Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, corrigir problemas ou adicionar novos recursos ao projeto.  
+📌 **Projeto desenvolvido para promover a higienização automatizada e segura em ambientes públicos.**  
